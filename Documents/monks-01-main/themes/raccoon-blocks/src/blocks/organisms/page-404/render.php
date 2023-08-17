@@ -1,7 +1,7 @@
-<div class="hero">
-
+<div class="container">
+    <img src="" alt="">
         <div class="page-404">
-            <img src=" themes/raccoon/blocks/images/group.png" alt="">
+           
             <h1>Pagina nao encontrada</h1>
            <p>
                 A página solicitada não foi encontrada. 
@@ -16,8 +16,8 @@
         </div>
       
             <div class="banner">
-                <img src="" alt="">
-                <img src="" alt="">
+                <p>OOPS!</p>
+               
             
             </div>
 </div>

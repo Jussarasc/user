@@ -1,24 +1,23 @@
-@import '../../../css/variables.scss';
+@import '../../../css/variables.scss';git 
 
-.hero {
-    margin: 0;
-    padding: 0;
+.container {
+    background-color: #9747FF;
+        img{
+            background-image: url('../../../../images/group.png');
+        }
+    
+
     .page-404 {
-        background-color: #9747FF;
-        height: 255px;
-        padding: 60px 96px 86px 96px;
+       
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 32px;
-
-        img{
+        gap: 24px;
             
-        }
-
         h1 {
             color: #ffff;
-            font-size: 34px;
-            font-weight: 400;
+            font-size: 28px;
+            font-weight: 600;
             line-height: normal;
         }
 
@@ -45,73 +44,64 @@
                 font-size: 26px;
                 font-weight: 400;
                 line-height: normal;
-
-
             }
         }
-
     }
+
+         .banner {
+            p {
+
+                }
+            
+            }
+        } 
+
 }
 
 
 
+@media(min-width:1440px) {
 
+        .page-404 {
+            height: 255px;
+            padding: 60px 96px 86px 96px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
 
+            h1 {
+                color: #ffff;
+                font-size: 34px;
+                font-weight: 400;
+                line-height: normal;
+            }
 
+            p {
+                width: 451px;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: normal;
+                color: #ffff;
+            }
 
-
-
-
-
-
-
-    @include laptop-large{
-        .hero {
-            margin: 0;
-            padding: 0;
-            .page-404 {
-                background-image: url();
-                background-color: #9747FF;
-                height: 255px;
-                padding: 60px 96px 86px 96px;
-                flex-direction: column;
+            button {
+                background-color: #5C70FF;
+                border-radius: 30px;
+                width: 205px;
+                padding: 16px 36px;
+                justify-content: center;
                 align-items: flex-start;
-                gap: 32px;
+                border: none;
 
-                h1 {
+                a {
                     color: #ffff;
-                    font-size: 34px;
+                    text-decoration: none;
+                    font-size: 16px;
                     font-weight: 400;
                     line-height: normal;
+
                 }
-
-                p {
-                    width: 451px;
-                    font-size: 22px;
-                    font-weight: 600;
-                    line-height: normal;
-                    color: #ffff;
-                }
-
-                button {
-                    background-color: #5C70FF;
-                    border-radius: 30px;
-                    width: 205px;
-                    padding: 16px 36px;
-                    justify-content: center;
-                    align-items: flex-start;
-                    border: none;
-
-                    a {
-                        color: #ffff;
-                        text-decoration: none;
-                        font-size: 16px;
-                        font-weight: 400;
-                        line-height: normal;
-
-                    }
-                }
-
             }
+
         }
-}
+    }
