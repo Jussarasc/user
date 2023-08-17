@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "rm/page-404",
+	"title": "Page-404",
+	"description": "Pagina de erro",
+	"category": "organisms",
+	"version": "1.0.0",
+	"editorScript": "file:index.jsx",
+	"script": "file:index.jsx",
+	"style": ["file:./style.scss", "style-page-404"],
+	"render": "file:./render.php",
+	"attributes": {
+		"bgColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"variant": {
+			"type": "string",
+			"default": "default"
+		},
+		"marginM": {
+			"type": "integer",
+			"default": "16"
+		},
+		"marginD": {
+			"type": "integer",
+			"default": "32"
+		}
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"blockOnly": true,
+			"bgColor": "#ffffff",
+			"variant": "default"
+		}
+	}
+}
